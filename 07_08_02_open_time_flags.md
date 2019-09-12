@@ -16,3 +16,4 @@
 
 // int O_EXLOCK
 // Acquire an exclusive lock on the file, as with flock. See File Locks. This is atomic like O_SHLOCK. 
+```
