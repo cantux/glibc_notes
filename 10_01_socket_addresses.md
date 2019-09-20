@@ -116,3 +116,11 @@ init_sockaddr (struct sockaddr_in *name,
   name->sin_addr = *(struct in_addr *) hostinfo->h_addr;
 }
 ```
+
+#### Reading the Address of a socket
+
+```
+#include "sys/socket.h"
+
+int getsockname (int socket, struct sockaddr *addr, socklen_t *length-ptr)
+```

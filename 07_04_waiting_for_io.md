@@ -49,6 +49,9 @@ int select (int nfds, fd_set *read-fds, fd_set *write-fds, fd_set *except-fds, s
 ```
 
 #### Examples
+
+Establish a timeout period for reading from a file descriptor.
+
 ```
 include <errno.h>
 #include <stdio.h>
@@ -88,6 +91,8 @@ main (void)
 }
 
 ```
+
+Server Example:
 
 ```
 
